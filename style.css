@@ -1,0 +1,98 @@
+h1 {
+    color: blue;
+    text-align: center;
+    background-color: aqua(50, 50, 104);
+}
+
+section {
+    display: flex;
+}
+
+.sectionleft {
+    width: 40%;
+}
+
+.sectionRight {
+    width: 100%;
+}
+
+button {
+    display: block;
+    width: 90%;
+    margin: 10px auto;
+}
+
+h2 {
+    margin: left 10px;
+}
+
+hr {
+    height: 2px;
+    width: 90%;
+    margin: 10px auto;
+    background-color: grey;
+}
+
+input {
+    display: block;
+    width: 90%;
+    margin: 10px auto;
+    background-color: skyblue;
+}
+
+.sectionTop {
+    display: block;
+    height: 250px;
+    border: 1px solid black;
+}
+
+.sectionBottom {
+    height: 250px;
+    display: block;
+}
+
+.dayForecast {
+    display: flex;
+    color: black;
+    height: auto;
+}
+
+.days0 {
+    margin-right: 10px;
+    background-color: grey;
+    color: black;
+    width: 250px;
+    height: 300px;
+}
+
+.days1 {
+    margin-right: 10px;
+    background-color: grey;
+    color: black;
+    width: 250px;
+    height: 300px;
+}
+
+.days2 {
+    margin-right: 10px;
+    background-color: grey;
+    color: black;
+    width: 250px;
+    height: 300px;
+}
+
+.days3 {
+    margin-right: 10px;
+    background-color: grey;
+    color: black;
+    width: 250px;
+    height: 300px;
+}
+
+.days4 {
+    margin-right: 10px;
+    background-color: grey;
+    color: black;
+    width: 250px;
+    height: 300px;
+}
