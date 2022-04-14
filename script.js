@@ -3,7 +3,6 @@ var key = "bffb28bbc1dd682977f9501122aeefd4"
 var dailyForecast = function(data, i) {
     var days = "days" + i;
     $(".dayForecast").append("<div class=" + days + "></div>");
-    $(".days" + i).append("<p>date<p>");
     $(".days" + i).append("<p>Temp:  " + data.daily[i].temp.max + "<p>");
     $(".days" + i).append("<p>Wind:  " + data.daily[i].wind_speed + "<p>");
     $(".days" + i).append("<p>Humidity:  " + data.daily[i].humidity + "<p>");
@@ -26,7 +25,7 @@ var weather = function(lat, lon) {
         });
 }
 var glocation = function(city) {
-    var url = "http://api.openweathermap.org/geo/1.0/direct?q=" + city + "&appid=" + key;
+    var url = "https://api.openweathermap.org/geo/1.0/direct?q=" + city + "&appid=" + key;
     fetch(url).then(function(response) {
             return response.json();
         })
